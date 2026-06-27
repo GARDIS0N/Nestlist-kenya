@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Theme colors map from the Geometric Balance design */
+  --color-primary: #1B4332;
+  --color-primary-dark: #112a1f;
+  --color-secondary: #2D6A4F;
+  --color-secondary-dark: #204e39;
+  --color-accent: #D4A373;
+  --color-accent-dark: #b88656;
+  --color-accent-light: #F4EBE1;
+  --color-theme-bg: #F8F9FA;
+  --color-theme-text: #1B4332;
+  --color-theme-muted: #6C757D;
+  --color-theme-line: #DEE2E6;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-theme-bg);
+    color: #1b4332; /* Rich forest text */
+  }
+}
+
+/* Animations matching the design theme */
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

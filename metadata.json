@@ -1,0 +1,6 @@
+{
+  "name": "Nestlist",
+  "description": "Kenyan rental SaaS platform integrated with Firebase Firestore/Storage, M-Pesa STK Push billing, and Africa's Talking automated SMS notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
