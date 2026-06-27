@@ -6,12 +6,12 @@ import { getFunctions } from "firebase/functions";
 
 // Config from provisioned project settings
 const firebaseConfig = {
-  apiKey: "AIzaSyC4oynTUkONN2dkKULz0lOpIteo2qNNC9E",
-  authDomain: "just-contact-stgzl.firebaseapp.com",
-  projectId: "just-contact-stgzl",
-  storageBucket: "just-contact-stgzl.firebasestorage.app",
-  messagingSenderId: "678864359997",
-  appId: "1:678864359997:web:a4b380d1d72b4a1a1f1054"
+  apiKey: "AIzaSyCPAyl457-pdMvGCKn5EoSzUkCr52v_k_0",
+  authDomain: "nestlist-kenya.firebaseapp.com",
+  projectId: "nestlist-kenya",
+  storageBucket: "nestlist-kenya.firebasestorage.app",
+  messagingSenderId: "563580343799",
+  appId: "1:563580343799:web:0583c27512fb13b8664af2",
 };
 
 // Initialize Firebase App
